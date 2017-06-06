@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EJEMPLO BOOTSTRAP</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- No lo borres - SQL MTD -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body background="wp.jpg">
+	<header>
+		<div class="container">
+			<h1>APLICACION WEB USANDO FRAMEWORK BOOTSTRAP </h1>
+			
+	
+		</div>
+	</header>
+	
+	<div class="container">
+		<div class="main row">
+			<article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+				<p>
+					<h3>BOOTSTRAP es uno de los principales frameworks de desarrollo de entornos web “responsive” </h3>
+					
+					<h4 class="visible-sm"><img src="img/bs1.png" width=250 height=100></h4>
+					<h4 class="visible-md"><img src="img/bs1.png" width=250 height=100></h4>
+					<h4 class="visible-lg"><img src="img/bs1.png" width=250 height=100></h4>
+					Esencialmente Bootstrap (y su versión 3 que es la que utilizaremos) está formado por una colección de hojas de estilo y funciones javascript auxiliares
+					que permiten construir muy rápidamente un front-end responsive. Está pensado para trabajar bajo el concepto “mobile first”, es decir, diseñar pensando 
+					ante todo en los dispositivos móviles. La razón de este enfoque es bastante obvia: un dispositivo móvil tiene una pantalla mucho más pequeñita,
+					y un uso táctil más limitado que un ordenador con su ratón y su pantalla de 17 pulgadas en adelante. 
+				</p>
+			</article>
+		
+			<aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+				<p>
+					<h3>Bootstrap Tutorial</h3>
+					<h4> <iframe width="300" height="150" 
+                                        src="https://www.youtube.com/watch?v=gqOEoUR5RHg"  
+                                          allowfullscreen></iframe></h4>
+	
+					<h4 class="visible-lg">Más tutoriales</h4>
+					<a href="https://www.youtube.com/watch?v=eFywnP-lquA&list=PLpOqH6AE0tNhW4kDFOTPs4keq1GcvJnwI" >--Curso Twitter Bootstrap CSS - 1: Introducción</a><br>
+					<a href="https://www.youtube.com/watch?v=nug1pMke-y4&t=548s">--Curso completo de Bootstrap desde cero 1.- Introducción e Instalación</a>
+				</p>
+			</aside>
+		</div>
+
+		<div class="row">
+			<div class="color1 col-xs-12 col-sm-6 col-md-3">
+				
+				<h4 class="visible-sm">Un marco, cada dispositivo</h4>
+				<h4 class="visible-md">Un marco, cada dispositivo</h4>
+				<h4 class="visible-lg">Un marco, cada dispositivo</h4>
+				<p>Arrancar con facilidad y de manera eficiente las escalas de sus sitios web y aplicaciones con una única base de código, desde teléfonos a las tabletas a las mesas con las preguntas de los medios de CSS.</p>
+			
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<h4 class="visible-sm">Característicass</h4>
+				<h4 class="visible-md">Características</h4>
+				<h4 class="visible-lg">Características</h4>
+				<p>Bootstrap tiene un soporte relativamente incompleto para HTML5 y CSS 3, pero es compatible con la mayoría de los navegadores web. La información básica de compatibilidad de sitios web o aplicaciones está disponible para todos los dispositivos y navegadores</p>
+			</div>
+
+			<div class="color1 col-xs-12 col-sm-8 col-md-3">
+				<h4 class="visible-sm">Estructura</h4>
+				<h4 class="visible-md">Estructura</h4>
+				<h4 class="visible-lg">Estructura</h4>
+				<p><img src="img/est.png" width=420 height=300></p>
+				</div>
+
+		
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<h3>PROG. DISP. MOVIL</h3>
+			<h4>Marinero Rosas Dulce María</h4>
+		</div>
+	</footer>
+	</div>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
